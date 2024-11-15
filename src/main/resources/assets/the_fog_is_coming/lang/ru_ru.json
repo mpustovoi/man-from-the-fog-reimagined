@@ -1,8 +1,10 @@
 {
   "block.the_fog_is_coming.bleeding_obsidian": "Кровоточащий обсидиан",
   "block.the_fog_is_coming.enshrouded_portal": "Окутанный портал",
+  "block.the_fog_is_coming.erebus_lantern": "Фонарь Эреба",
 
   "item.the_fog_is_coming.tear_of_the_man": "Слеза §kГромобоя§r",
+  "item.the_fog_is_coming.erebus_orb": "Сфера Эреба",  
   "item.the_fog_is_coming.fogman_spawn_egg": "Яйцо призыва §kГромобоя§r",
   "item.the_fog_is_coming.mans_claws": "Когти §kГромобоя§r",
 
@@ -26,9 +28,17 @@
 
   "subtitles.the_fog_is_coming.shield_break": "Щит §kГромобоя§r ломается",
 
-  "gamerule.manSpawnChanceScales": "Должен ли шанс появления Громобоя увеличиваться в зависимости от количества игроков",
+  "yacl3.config.the_fog_is_coming:config.category.default": "Переосмысленный «Man From The Fog»",
+  "yacl3.config.the_fog_is_coming:config.category.default.group.spawning": "Появление",
+  "yacl3.config.the_fog_is_coming:config.category.default.group.status_effects": "Статусные эффекты",
+  "yacl3.config.the_fog_is_coming:config.category.default.group.griefing": "Разрушение",
+  "yacl3.config.the_fog_is_coming:config.category.default.group.misc": "Прочее",
+
+  "yacl3.config.the_fog_is_coming:config.allowedDimensions": "Разрешённые измерения",
+
+  "gamerule.manSpawnChanceScalesWithPlayerCount": "Должен ли шанс появления Громобоя увеличиваться в зависимости от количества игроков",
   "gamerule.manSpawnChance": "Шанс появления Громобоя",
-  "gamerule.manAmbientSoundChance": "Шанс проигрывания звука вместо появления Громобоя",
+  "gamerule.manFakeSpawnChance": "Шанс проигрывания звука вместо появления Громобоя",
   "gamerule.manSpawnCooldown": "Время между возможными появлениями Громобоя",
 
   "gamerule.manCanSpawnInDay": "Может ли Громобой появляться днём",
@@ -38,7 +48,11 @@
 
   "gamerule.manMinSpawnRange": "Минимальное расстояние появления Громобоя",
   "gamerule.manMaxSpawnRange": "Максимальное расстояние появления Громобоя",
+  "gamerule.manCanSpawnInAnyDimension": "Разрешить Громобою появляться в любом измерении",
 
   "gamerule.manShouldBreakGlass": "Может ли Громобой ломать стекло",
-  "gamerule.manShouldBreakLightSources": "Может ли Громобой ломать источники света"
+  "gamerule.manShouldBreakLightSources": "Может ли Громобой ломать источники света",
+  
+  "gamerule.manShouldHungerBeCapped": "Должен ли голод игрока быть ограничен до 8 при преследовании",
+  "gamerule.manCanSummonLightning": "Может ли Громобой вызывать косметические молнии"
 }
